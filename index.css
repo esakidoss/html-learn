@@ -1,0 +1,81 @@
+body
+{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url('887966-large-one-piece-wallpaper-1920x1200.jpg');
+}
+.image{
+    display: flex;
+    padding: 10%;
+    width: 10%;
+    height: 30%;
+    
+}
+.image img{
+
+    height: 100%;
+    color: beige;
+    background-color: rgb(255, 0, 106);
+}
+.image h1{
+
+    color: white;
+}
+div.navi{
+    position: fixed;
+}
+.navi{
+    
+    display: flex;
+    width: 100%;
+    
+    height: 10%;
+}
+.navi ul{
+    width: 100%;
+    justify-content: center;
+}
+.navi ul li a:hover{
+    color: black;
+    background-color: rgb(42, 165, 48);
+    
+}
+.navi ul li{
+    
+    padding: 10px;
+    display: contents;
+    list-style-type: none;
+}
+.navi ul li a{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: space-between 10px;
+}
+   
+.homepage{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.newspage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 7, 41);
+}
+.aboutpage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(104, 129, 98);
+}
+.contactpage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 226, 180);
+}
